@@ -1,0 +1,25 @@
+{
+  "name": "openshift-nodejs-stackoverflow-answer",
+  "version": "1.0.1",
+  "description": "Node.js cartridge for StackOverflow answer",
+  "private": true,
+  "main": "start.js",
+  "scripts": {
+    "start": "node --use_strict start.js"
+  },
+  "author": "EMX <elliot.hax@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-mysql-session": "^1.2.1",
+    "express-session": "^1.15.4",
+    "method-override": "^2.3.9",
+    "mysql": "^2.14.1",
+    "passport": "^0.3.2",
+    "passport-github2": "^0.1.10",
+    "path": "^0.12.7",
+    "serve-static": "^1.12.3"
+  }
+}
